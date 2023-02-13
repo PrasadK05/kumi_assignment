@@ -1,0 +1,22 @@
+  let tabs = [
+  { name: "Produce", id: "produce" },
+  { name: "Prepared foods", id: "pf" },
+  { name: "Canned foods & Soups", id: "cfs" },
+  { name: "Produce", id: "produce1" },
+  { name: "Bakery", id: "bakery" },
+  { name: "Dairy & Eggs", id: "d&e" },
+  { name: "Frozen", id: "frozen" },
+  { name: "Meat & Seafood", id: "m&s" },
+  { name: "Bakery", id: "bakery1" },
+  { name: "Dairy & Eggs", id: "d&e1" },
+  { name: "Prepared foods", id: "pf1" },
+  { name: "Canned foods & Soups", id: "cfs1" },
+  { name: "Produce", id: "produce2" },
+  { name: "Bakery", id: "bakery2" },
+  { name: "Dairy & Eggs", id: "d&e2" },
+  { name: "Frozen", id: "frozen1" },
+  { name: "Meat & Seafood", id: "m&s1" },
+  { name: "Produce", id: "produce3" },
+  { name: "Bakery", id: "bakery3" },
+];
+export default tabs
