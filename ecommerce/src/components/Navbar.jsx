@@ -5,16 +5,19 @@ import { useSelector, useDispatch } from "react-redux";
 
 export function Navbar() {
   const { cart } = useSelector((store) => store.cart);
-  console.log(cart);
   return (
     <Box
       width={"100%"}
+      position="sticky"
+      top={"0px"}
+      zIndex={100}
       h="102px"
       bg="#FFE475"
       display={{ base: "none", sm: "none", md: "flex", lg: "flex" }}
       justifyContent="space-between"
       alignItems={"center"}
       padding="25px 20px"
+      mb="10px"
     >
       <Text fontFamily={"Prata"} fontSize="30px" fontWeight={"700"}>
         E-Commerce

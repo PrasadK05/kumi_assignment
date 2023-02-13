@@ -36,14 +36,18 @@ export default function Container() {
   return (
     <Box
       width={"100%"}
-      h="87vh"
+    //   
       display="flex"
       justifyContent={"space-between"}
-      border="1px solid red"
+      
     >
       <Box
         width={"20%"}
-        border="1px solid blue"
+        h="87vh"
+        position={"sticky"}
+        left={"0px"}
+        top={"112px"}
+        zIndex={100}        
         overflowY={"auto"}
         sx={{
           "&::-webkit-scrollbar": { width: "8px" },
@@ -60,8 +64,7 @@ export default function Container() {
         })}
       </Box>
       <Box
-        width={"80%"}
-        border="1px solid blue"
+        width={"80%"}        
         overflowY={"auto"}
         sx={{ "&::-webkit-scrollbar": { display: "none" } }}
       >
