@@ -1,4 +1,4 @@
-export default data20 = [
+let data20 = [
   {
     id: 229,
     image: "https://www.linkpicture.com/q/banan_-image.png",
@@ -96,3 +96,5 @@ export default data20 = [
     weight: "1 lb",
   },
 ];
+
+export default data20;
