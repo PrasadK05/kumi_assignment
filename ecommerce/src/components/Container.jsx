@@ -24,22 +24,18 @@ import data19 from "../config/data19";
 import Card from "./Card";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-
-import {  Navigation } from "swiper";
+import { Navigation } from "swiper";
 
 export default function Container() {
   return (
     <Box
       width={"100%"}
-    //   
-      display="flex"
+      display={{ base: "none", sm: "none", md: "flex", lg: "flex" }}
       justifyContent={"space-between"}
-      
     >
       <Box
         width={"20%"}
@@ -47,7 +43,7 @@ export default function Container() {
         position={"sticky"}
         left={"0px"}
         top={"112px"}
-        zIndex={100}        
+        zIndex={100}
         overflowY={"auto"}
         sx={{
           "&::-webkit-scrollbar": { width: "8px" },
@@ -64,7 +60,7 @@ export default function Container() {
         })}
       </Box>
       <Box
-        width={"80%"}        
+        width={"80%"}
         overflowY={"auto"}
         sx={{ "&::-webkit-scrollbar": { display: "none" } }}
       >
@@ -863,7 +859,6 @@ export default function Container() {
             </Swiper>
           </Box>
         </Box>
-
       </Box>
     </Box>
   );

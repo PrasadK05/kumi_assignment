@@ -52,6 +52,10 @@ export function MobileNavbar() {
       justifyContent="space-between"
       alignItems={"center"}
       padding="25px 20px"
+      position={"sticky"}
+      top="0px"
+      zIndex={100}
+      bg="white"
     >
       <Text fontFamily={"Prata"} fontSize="30px" fontWeight={"700"}>
         E-Commerce

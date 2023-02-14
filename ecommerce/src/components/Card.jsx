@@ -45,7 +45,7 @@ export default function Card({ image, name, prev, price, weight, id }) {
           pl="10px"
         >
           <Text
-            display={prev == null ? "none" : "block"}
+            display={prev==null||undefined ? "none" : "block"}
             color={"#737D94"}
             fontSize="20px"
             fontWeight={"600"}
