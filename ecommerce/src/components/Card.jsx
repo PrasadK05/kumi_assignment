@@ -32,6 +32,7 @@ export default function Card({ image, name, prev, price, weight, id }) {
             bg="#40D589"
             fontSize={"20px"}
             color="#FFFFFF"
+            _hover={{bg:"#40D589", color:"#FFFFFF"}}
           >
             {state ? "+" : "-"}
           </Button>
