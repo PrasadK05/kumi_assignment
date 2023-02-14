@@ -1,5 +1,5 @@
 # E-commerce
-Responsive design of ecommerce web page layout built by react js with cart and spy scrolling functionality.
+Responsive design of ecommerce web page layout built by React JS, Redux and Chakra UI with cart and spy scrolling functionality.
 
 [Click here to go live](https://shiny-capybara-53cdb7.netlify.app/)
 
