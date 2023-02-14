@@ -13,7 +13,7 @@ Responsive design of ecommerce web page layout built by React JS, Redux and Chak
 
 # Layout
 
-## For Androide & iOS
+## For Android & iOS
 ![Mobile](https://www.linkpicture.com/q/ecom-mob.jpeg)
 
 ## For Desktop
