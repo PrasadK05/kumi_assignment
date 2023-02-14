@@ -31,7 +31,7 @@ import { Navigation } from "swiper";
 export default function MobileCategeory() {
   return (
     <>
-      <Box id="produce" w="100%" mb="10px" padding={"0px 15px"}>
+      <Box id="1" w="100%" mb="10px" padding={"0px 15px"}>
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -76,7 +76,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box name="pf" w="100%" mb="10px" padding={"0px 15px"}>
+      <Box name="2" w="100%" mb="10px" padding={"0px 15px"}>
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -121,7 +121,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="cfs" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="3" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -166,7 +166,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="produce1" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="4" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -212,7 +212,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="bakery" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="5" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -258,7 +258,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="d&e" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="6" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -304,7 +304,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="frozen" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="7" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -350,7 +350,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="m&s" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="8" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -396,7 +396,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="bakery1" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="9" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -442,7 +442,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="d&e1" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="10" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -488,7 +488,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box name="pf1" w="100%" mb="10px" padding={"0px 15px"}>
+      <Box name="11" w="100%" mb="10px" padding={"0px 15px"}>
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -533,7 +533,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="cfs1" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="12" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -578,7 +578,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="produce2" w="100%" mb="10px" padding={"0px 15px"}>
+      <Box id="13" w="100%" mb="10px" padding={"0px 15px"}>
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -623,7 +623,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="bakery2" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="14" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -669,7 +669,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="d&e2" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="15" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -715,7 +715,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="frozen1" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="16" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -761,7 +761,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="m&s1" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="17" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -807,7 +807,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="produce3" w="100%" mb="10px" padding={"0px 15px"}>
+      <Box id="18" w="100%" mb="10px" padding={"0px 15px"}>
         <Box
           display={"flex"}
           justifyContent="space-between"
@@ -852,7 +852,7 @@ export default function MobileCategeory() {
         </Box>
       </Box>
 
-      <Box id="bakery3" w="100%" padding={"0px 15px"} mb="10px">
+      <Box id="19" w="100%" padding={"0px 15px"} mb="10px">
         <Box
           display={"flex"}
           justifyContent="space-between"

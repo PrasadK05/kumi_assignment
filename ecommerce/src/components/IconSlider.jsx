@@ -30,506 +30,842 @@ export default function IconSlider() {
         modules={[Navigation]}
       >
         <SwiperSlide>
-          <Link
-            to="produce"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
-            activeStyle={{color:"red"}}
-          >           
-            <Box              
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
+          >
+            <Link
+              to="1"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <FaCarrot color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3" _activeLink={{color:"red"}}>
+            </Link>
+          </Box>
+
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="1"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Produce
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link to="pf" smooth={true} duration={1000} offset={170} spy={true} activeStyle={{color:"red"}}>
-          
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
+            _active={{ color: "red" }}
+          >
+            <Link
+              to="2"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <TbCandy color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="2"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Sweet
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link to="cfs" smooth={true} duration={1000} offset={-170} spy={true}>
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
+          >
+            <Link
+              to="3"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <GiCannedFish color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="3"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Canned
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="produce1"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="4"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <FaCarrot color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="4"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Produce
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="bakery"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="5"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <FaCookieBite color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="5"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Bakery
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link to="d&e" smooth={true} duration={1000} offset={-170} spy={true}>
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
+          >
+            <Link
+              to="6"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <BsFillEggFill color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="6"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Dairy
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="frozen"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="7"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <GiFrozenOrb color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="7"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Frozen
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link to="m&s" smooth={true} duration={1000} offset={-170} spy={true}>
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
+          >
+            <Link
+              to="8"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <GiRoastChicken color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="8"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Meat
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="bakery1"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="9"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <FaCookieBite color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="9"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Bakery
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="d&e1"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="10"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <BsFillEggFill color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="10"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Dairy
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link to="pf1" smooth={true} duration={1000} offset={-170} spy={true}>
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
+          >
+            <Link
+              to="11"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <TbCandy color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="11"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Sweet
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="cfs1"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            //   border={"1px solid black"}
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="12"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <GiCannedFish color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="12"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Canned
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="produce2"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="13"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <FaCarrot color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="13"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Produce
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="bakery2"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="14"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <FaCookieBite color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="14"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Bakery
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="d&e2"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="15"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <BsFillEggFill color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="15"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Dairy
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="frozen1"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="16"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <GiFrozenOrb color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="16"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Frozen
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="m&s1"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="17"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <GiRoastChicken color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="17"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Meat
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="produce3"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="18"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <FaCarrot color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="18"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Produce
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link
-            to="bakery3"
-            smooth={true}
-            duration={1000}
-            offset={-170}
-            spy={true}
+          <Box
+            w="48px"
+            h="48px"
+            display={"flex"}
+            justifyContent="center"
+            alignItems={"center"}
+            bg="#EDEDED"
+            borderRadius={"5px"}
+            boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
+            mb="5px"
           >
-            <Box
-              //   border={"1px solid black"}
-              w="48px"
-              h="48px"
-              display={"flex"}
-              justifyContent="center"
-              alignItems={"center"}
-              bg="#EDEDED"
-              borderRadius={"5px"}
-              boxShadow="0px 3px 6px rgba(0, 0, 0, 0.16)"
-              mb="5px"
+            <Link
+              to="19"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{
+                backgroundColor: "#5DA9E9",
+                color: "#FFFFFF",
+                width: "48px",
+                height: "48px",
+                borderRadius: "5px",
+                padding: "10px 10px 10px 12px",
+              }}
             >
               <FaCookieBite color="#B6BAC3" size={"24px"} />
-            </Box>
-            <Text fontSize={"12px"} color="#B6BAC3">
+            </Link>
+          </Box>
+          <Text fontSize={"12px"} color="#B6BAC3">
+            <Link
+              to="19"
+              smooth={true}
+              duration={1000}
+              offset={-300}
+              spy={true}
+              activeStyle={{ color: "#5DA9E9" }}
+            >
               Bakery
-            </Text>
-          </Link>
+            </Link>
+          </Text>
         </SwiperSlide>
       </Swiper>
     </>

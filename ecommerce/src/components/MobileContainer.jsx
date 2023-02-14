@@ -5,10 +5,8 @@ import MobileCategeory from "./MobileCategeory";
 
 export default function MobileContainer() {
   return (
-    <Box
-      w={"100%"}    
-      gap="10px"
-    >
+   
+    <>
       <Box
         w="100%"
         padding={"10px 20px"}
@@ -24,6 +22,7 @@ export default function MobileContainer() {
       <Box w="100%">
         <MobileCategeory />
       </Box>
-    </Box>
+      </>
+    
   );
 }
